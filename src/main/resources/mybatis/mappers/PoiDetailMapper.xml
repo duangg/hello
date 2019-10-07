@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nolan.mybatis.dao.PoiDetailDao">
+    <select id="selectOne" resultType="com.nolan.mybatis.PoiModel">
+        select id,source,`name`,`type`,vendor,company_id,city_id,phone,address,address_detail,latitude,longitude
+        from t_poi_detail
+        where id = #{id}
+    </select>
+</mapper>
