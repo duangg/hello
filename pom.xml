@@ -177,7 +177,7 @@
     <properties>
         <jdk.version>1.8</jdk.version>
         <kotlin.version>1.0.0</kotlin.version>
-        <elastcisearch.version>5.6.12</elastcisearch.version>
+        <elastcisearch.version>7.11.2</elastcisearch.version>
     </properties>
 
 </project>
